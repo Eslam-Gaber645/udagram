@@ -7,7 +7,7 @@ orbs:
   node: circleci/node@5.0.2
 # Declare CI/CD jobs.
 jobs:
-  Deploy:
+  build:
     docker:
       - image: "cimg/base:stable"
     steps:
