@@ -19,6 +19,7 @@
 
 ## Back-end deploy processes:-
 
+- Init AWS eb using `eb init` command.
 - Upload (Builded) Backend-end to AWS eb using `eb deploy` command.
 - Setup env variables for AWS using `eb setenv` command.
 
